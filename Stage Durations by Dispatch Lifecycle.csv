@@ -1,0 +1,7 @@
+DER Lifecycle,MEDIAN of DER Time to Dispatch,MEDIAN of DER Time to Onscene,MEDIAN of DER Time to Close,Total Time (Sum of Medians)
+Call Only,0,0,11,11
+Full Dispatch,6,7,8,22
+"On-view, no dispatch",0,0,10,10
+Other,29,10,3,43
+Partial Dispatch,0,7,8,15
+System timestamped,62,0,0,62
