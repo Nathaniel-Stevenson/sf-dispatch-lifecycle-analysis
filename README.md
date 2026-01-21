@@ -7,9 +7,15 @@ Table: Incident Lifecycle Summary
 
 - Lifecycles are derived using provided information: call type, whether an officer was onscene at time of initiation, and stage duration data. 
 
-- The dataset includes calls, full dispatches, partial dispatch which appear to be process errors in that they do not give an accurate duration, officer initiated incidents. 
+- The dataset includes calls, full dispatches, partial dispatch which appear to be process errors in that they do not give an accurate duration, officer initiated incidents.
 
-- Incidents that do not have full information provided are labled "Missing Info" and excluded from this analysis
+- Call Only = Incident type provided by dataset
+- Traffic Enforcement = Incident type provided by dataset
+- On-view, no dispatch = Using on view Y or HSOC
+- System timestamped = checks if there is no duration between different phases (like instant arrival time)
+- Partial dispatched = if there is incomplete
+- Full dispatch = checks if all durations are not 0
+- Other = does not meet any of these checks
 
 Table: Stage Durations by Dispatch Lifecycle
 
