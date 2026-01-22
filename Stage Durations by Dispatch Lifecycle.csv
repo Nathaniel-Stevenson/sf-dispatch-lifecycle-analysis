@@ -1,7 +1,7 @@
 DER Lifecycle,MEDIAN of DER Time to Dispatch,MEDIAN of DER Time to Onscene,MEDIAN of DER Time to Close,MEDIAN of DER Total Time
-Call Only,0,0,11,-
-Full Dispatch,5,7,9,-
-On-view, no dispatch,0,0,9,-
-Other,30,-,-,-
+Call Only,0,0,11,#N/A
+Full Dispatch,5,7,9,#N/A
+"On-view, no dispatch",0,0,9,#N/A
+Other,30,#N/A,#N/A,#N/A
 System timestamped,62,0,0,70
-Traffic Enforcement,52,-,-,-
+Traffic Enforcement,52,#N/A,#N/A,#N/A
