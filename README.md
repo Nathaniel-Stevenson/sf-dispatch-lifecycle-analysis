@@ -13,9 +13,10 @@ Table: Incident Lifecycle Summary
 - Traffic Enforcement = Incident type provided by dataset
 - On-view, no dispatch = Using on view Y or HSOC
 - System timestamped = checks if there is no duration between different phases (like instant arrival time)
-- Partial dispatched = if there is incomplete
 - Full dispatch = checks if all durations are not 0
 - Other = does not meet any of these checks
+
+Response time metrics will only be using lifecycles that are initiated by dispatch and follow the full process. Call only, officer initiated responses, and system timestamped incidents are excluded.
 
 Table: Stage Durations by Dispatch Lifecycle
 
