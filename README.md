@@ -20,8 +20,14 @@ Response time metrics will only be using lifecycles that are initiated by dispat
 
 Table: Stage Durations by Dispatch Lifecycle
 
-- Total Time (Sum of Medians) is used in place of MEDIAN of DER Total Time due to an error in Excel. 
+Lifecycle is a primary determiner of durations.
+
+Table: Full Dispatched Incident Count by Hour
+
+Table: Full Dispatched Incidents Duration Breakdown
+
+Table: Duration Breakdown by Priority
+
 
 # Limitations
 - Many entries are missing enroute and close time, making any analysis of them impossible. ((These likely follow some pattern but more analysis is required)). 
-- In analysis using table: Stage Durations by Dispatch Lifecycle, Total Time (Sum of Medians) is used in place of MEDIAN of DER Total Time due to an error in Excel. This is not the correct metric to use, as it can differ from the sum.
