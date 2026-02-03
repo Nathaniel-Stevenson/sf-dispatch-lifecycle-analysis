@@ -1,4 +1,3 @@
-okay, help me refine this for my last 30 mins of the work day
 # sf-dispatch-lifecycle-analysis
 # Overview
 This project uses Law Enforcement Dipatched Calls for Service (Real Time) dataset published by the City of San Francisico to analyze lifeycycles and response times of law enforcement incidents. 
