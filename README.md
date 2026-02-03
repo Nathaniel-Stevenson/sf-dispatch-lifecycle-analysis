@@ -1,12 +1,12 @@
 # sf-dispatch-lifecycle-analysis
-# Overview
+## Overview
 This project uses Law Enforcement Dipatched Calls for Service (Real Time) dataset published by the City of San Francisico to analyze lifeycycles and response times of law enforcement incidents. 
 
 This analysis focuses on distinguishing lifecycle paths and evaluating response behavior for only incidents that follow a complete dispatch initiated process. Incidents that do not follow standard dispatch workflow are excluded.
 
 Dataset: https://catalog.data.gov/dataset/law-enforcement-dispatched-calls-for-service-real-time
 
-# Header
+## Findings
 Table: Incident Lifecycle Summary
 Each bin represents a different lifecycle path. Lifeycycle paths are decided using call type metadata, officer-initiated indicators, ordering of timestamps across dispatch stages, and so on. Incidents are classified whether they represent a full dispatch workflow, and officer initiated event, a call only, or system timestamping. 
 
